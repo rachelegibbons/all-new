@@ -568,13 +568,13 @@ img.typefaces {
 	}
 
 	.projectOne {
-			grid-column: 1;
-			grid-row: 1;
+		grid-column: 1;
+		grid-row: 1;
 	}
 
 	.projectTwo {
-			grid-column: 2;
-			grid-row: 1;
+		grid-column: 2;
+		grid-row: 1;
 	}
 
 	.projectThree {
@@ -667,6 +667,7 @@ img.typefaces {
 
 	figcaption {
 		padding: 40px;
+
 	/*------------MT LOGO---------------------*/
 
 	.mtLogo img{
@@ -681,7 +682,8 @@ img.typefaces {
 	}
 
 /*-------#peciInline----------------*/ 
-{
+
+#peciInline {
 	display: grid;
 	columns: 1fr 1fr 1fr;
 }
@@ -702,6 +704,7 @@ img.typefaces {
 	grid-column: 3;
 	grid-row: 1;
 	max-height: 1fr;	
+}
 
 	/* Resume */
 
