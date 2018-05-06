@@ -310,7 +310,6 @@ figcaption {
 	text-align: middle;
 }
 
-
 .projectList li a {
 	padding: 20px;
 }
@@ -479,7 +478,7 @@ img.typefaces {
 
 /*-----------PECI-------------*/
 
-.peciInline {
+#peciInline {
 	display: grid;
 	columns: 1fr 1fr 1fr;
 }
@@ -487,16 +486,19 @@ img.typefaces {
 .peciInline1 {
 	grid-column: 1;
 	grid-row: 1;
+	max-height: 1fr;
 }
 
 .peciInline2 {
 	grid-column: 2;
 	grid-row: 1;
+	max-height: 1fr;
 }
 
 .peciInline3 {
 	grid-column: 3;
 	grid-row: 1;
+	max-height: 1fr;
 }
 
 /* ------------------------ Favorites ------------------------ */
