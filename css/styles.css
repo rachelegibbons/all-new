@@ -470,8 +470,8 @@ img.typefaces {
 
 /*-----------PECI-------------*/
 
-.peciInline img {
-	max-height: 50px;
+.peciImages img {
+	width: 100%;
 }
 
 /* ------------------------ Favorites ------------------------ */
@@ -737,13 +737,8 @@ img.typefaces {
 		display: block;
 	}
 
-	figure.figurePad {
-		padding: 50px 80px;
-	}
-
 figcaption {
 	padding: 80px;
-	}
 }
 
 @media only screen and (min-width: 1300px) {
@@ -790,6 +785,8 @@ figcaption {
 		display: grid;
 		grid-template-columns: 5fr 7fr;
 	}
+
+
 }
 
 @media only screen and (min-width: 1500px) {
@@ -836,4 +833,5 @@ figcaption {
 	#peciDetail, #fireflyDetail, #unfiDetail {
 		padding-bottom: 200px;
 	}
+
 }
