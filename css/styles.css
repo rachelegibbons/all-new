@@ -701,7 +701,7 @@ img.typefaces {
 	grid-column: 3;	
 }
 
-	/* Resume */
+/*--------------- Resume -----------------*/
 
 #resumeCssGrid {
 	display: grid;
@@ -737,9 +737,12 @@ img.typefaces {
 		display: block;
 	}
 
-figcaption {
-	padding: 80px;
-}
+
+	figcaption {
+		padding: 80px;
+	}
+
+}	
 
 @media only screen and (min-width: 1300px) {
 
@@ -772,6 +775,10 @@ figcaption {
 		padding-left: 40px;
 	}
 
+	.figurePad {
+		padding-left: 100px;
+	}
+
 	/* Resume */
 	.left {
 		padding: 60px 200px 0px 40px;
@@ -786,6 +793,11 @@ figcaption {
 		grid-template-columns: 5fr 7fr;
 	}
 
+	.mtLogo {
+		padding-left: 40px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
 
 }
 
