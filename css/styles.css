@@ -12,6 +12,7 @@ body {
 
 img {
 	max-width: 100%;
+	vertical-align: middle;
 }
 
 p {
@@ -19,8 +20,8 @@ p {
 }
 
 figure {
-	margin: 0px;
-	margin-bottom: 80px;
+	margin: 0px 0px;
+	padding: 50px 20px;
 }
 
 figcaption {
@@ -301,11 +302,12 @@ figcaption {
 
 .projectList ul {
 	padding: 0px;
+	text-align: middle;
 }
 
 
 
-projectList li  a{
+.projectList li  a{
 	padding-right: 20px;
 }
 
@@ -319,10 +321,12 @@ projectList li  a{
 	padding: 15px;
 	margin-bottom: 15px;
 	margin-left: 20px;
+	text-align: center;
 }
 
 .projectList ul li a {
 	text-decoration: none;
+	text-align: center;
 }
 
 .projectList li a:hover {
@@ -448,19 +452,13 @@ projectList li  a{
 
 /*------------Metal Toad-------------*/
 
-img.mtLogo {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
-}
-
 #metalToadDiscovery.metalToadDetail  {
 	background-color: white;
 	color: black;
 }
 
 img.typefaces {
-	padding: 60px;
+	padding: 0px;
 }
 
 
