@@ -21,6 +21,11 @@ p {
 
 figure {
 	margin: 0px 0px;
+	padding: 0;
+}
+
+figure.figurePad {
+	margin-top: 0px 0px;
 	padding: 50px 20px;
 }
 
@@ -473,6 +478,28 @@ img.typefaces {
 	grid-column: 2;
 }
 
+/*-----------PECI-------------*/
+
+.peciInline {
+	display: grid;
+	columns: 1fr 1fr 1fr;
+}
+
+.peciInline1 {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.peciInline2 {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.peciInline3 {
+	grid-column: 3;
+	grid-row: 1;
+}
+
 /* ------------------------ Favorites ------------------------ */
 
 .favoritesDetail {
@@ -628,17 +655,16 @@ img.typefaces {
 		padding: 100px 40px 100px 0px;
 	}
 
+	.projectDetail h3 {
+		padding-left: 40px;
+	}
+
 	.projectDetail h2, {
 		font-size: 3.713em;
 	}
 
 	#peciDetail h2 , #fireflyDetail h2, #unfiDetail h2, #diagramsDetail h2, #codeGirlDetail h2, #holidayCardDetail h2, #metalToadDetail h2 {
 		padding-left: 40px;
-	}
-
-	.projectDetail h3 {
-		font-size: 1.6em;
-		padding: 0px 40px;
 	}
 
 	.projectDetail p {
@@ -658,6 +684,14 @@ img.typefaces {
 		font-family: 'rubik' sans-serif;
 		font-size: 1.69em;
 	}
+
+	
+	figure.figurePad {
+		padding: 50px 40px;
+	}
+
+	figcaption {
+		padding: 40px;
 	/*------------MT LOGO---------------------*/
 
 	.mtLogo img{
@@ -665,6 +699,10 @@ img.typefaces {
 		margin-left: auto;
 		margin-right: auto;
 		width: 65%;
+	}
+
+	.projectDetail .mtColorPalette img {
+		max-width: 75%;
 	}
 
 	/* Resume */
@@ -702,6 +740,13 @@ img.typefaces {
 	.projectList li {
 		display: block;
 	}
+
+	figure.figurePad {
+		padding: 50px 80px;
+	}
+
+	figcaption {
+		padding: 80px;
 
 }
 
@@ -754,6 +799,10 @@ img.typefaces {
 @media only screen and (min-width: 1500px) {
 
 	.banner, .banner h1, banner ul  {
+		padding-left: 40px;
+	}
+
+	nav {
 		padding-left: 40px;
 	}
 
