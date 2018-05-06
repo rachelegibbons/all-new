@@ -473,7 +473,6 @@ img.typefaces {
 .peciInline img {
 	max-height: 50px;
 }
-}
 
 /* ------------------------ Favorites ------------------------ */
 
@@ -667,6 +666,7 @@ img.typefaces {
 
 	figcaption {
 		padding: 40px;
+	}
 
 	/*------------MT LOGO---------------------*/
 
@@ -690,7 +690,6 @@ img.typefaces {
 
 .peciInline1 {
 	grid-column: 1;
-
 }
 
 .peciInline2 {
@@ -704,19 +703,19 @@ img.typefaces {
 
 	/* Resume */
 
-	#resumeCssGrid {
-		display: grid;
-		grid-template-columns: 2fr 3fr;
-		grid-gap: 1fr;
-		padding-left: 20px;
-	}
+#resumeCssGrid {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-gap: 1fr;
+	padding-left: 20px;
+}
 
 	/* Favorites */
 
 	.favorites {
 		padding-left: 20px;
 	}
-}
+
 
 @media only screen and (min-width: 1053px) {
 
@@ -742,9 +741,9 @@ img.typefaces {
 		padding: 50px 80px;
 	}
 
-	figcaption {
-		padding: 80px;
-
+figcaption {
+	padding: 80px;
+	}
 }
 
 @media only screen and (min-width: 1300px) {
