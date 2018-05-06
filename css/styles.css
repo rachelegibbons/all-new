@@ -1,0 +1,796 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0px;
+  	font-size: 16px;
+}
+
+.container {
+	font-family: 'Rubik', sans-serif;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin: 0px;
+}
+
+figure {
+	margin: 0px;
+	margin-bottom: 80px;
+}
+
+figcaption {
+	padding: 20px;
+	color: gray;
+}
+
+.banner {
+	padding: 20px 20px;
+}
+
+.banner h1 {
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.banner h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.banner h1 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.banner h1 a:visited {
+	color: black;
+}
+
+.banner ul {
+  padding: 0px;
+}
+
+.banner li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.banner li a {
+  color: black;
+  text-decoration: none;
+}
+
+.banner li a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  font-family: 'Playfair Display', serif;
+	margin-bottom: -15px;
+	padding: 120px 20px 200px 20px;
+}
+
+.intro h2 {
+  font-weight: 500;
+  font-size: 2.197em;
+}
+
+.projects ul {
+  padding: 0px;
+}
+
+.projects li {
+  list-style: none;
+  display: block;
+  padding: 20px 20px 200px 20px;
+  color: white;
+  font-size: 1.3em;
+}
+
+.projects li a {
+  color: white;
+  text-decoration: none;
+}
+
+.projects li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.projectOne {
+  background-color: #e6ef00;
+}
+
+.projectOne:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectTwo {
+  background-color: #183365;
+}
+
+.projectTwo:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectThree {
+  background-color: #54aee0;
+}
+
+.projectThree:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectFour {
+  background-color: #f15f22;
+}
+
+.projectFour:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectFive {
+  background-color: #61a902;
+}
+
+.projectFive:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectSix {
+  background-color: black;
+}
+
+.projectSix:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectSeven {
+	background-color: #f15f22;
+}
+
+.projectSeven:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectEight {
+	background-color: #f15f22;
+}
+
+.projectEight:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.about {
+  padding: 40px 20px 20px 20px;
+}
+
+.about p {
+  font-family: 'Cormorant', sans-serif;
+  font-size: 1.69em;
+  line-height: 38px;
+  padding-bottom: 40px;
+}
+
+#contact {
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+#contact ul {
+  padding: 0px;
+}
+
+#contact li {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+#contact li a, #contact li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#contact li a:hover {
+  text-decoration: underline;
+}
+
+/*----------Contact Page----------------------*/
+
+
+
+.introContact {
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.introContact a, .introContact a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.introContact a:hover {
+	text-decoration: underline;
+}
+
+
+.introContact p {
+  font-family: 'Cormorant', sans-serif;
+  font-size: 1.69em;
+  line-height: 38px;
+  padding-bottom: 40px;
+}
+
+
+
+/*---------------------- Project Pages ----------------------*/
+
+.projectDetail {
+	background-color: #34496f;
+	color: white;
+	padding: 100px 20px 0px 20px;
+}
+
+.projectDetail h2 {
+	font-family: 'PlayFair Display', serif;
+	font-weight: 900;
+	letter-spacing: 4px;
+	font-size: 2.856em;
+	margin-bottom: 0px;
+	line-height: 1em;
+	padding-bottom: 20px;
+}
+
+.projectDetail h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.projectDetail h3 {
+	margin: 0px 0px;
+	padding-bottom: 10px;
+}
+
+.projectDetail p {
+	font-family: 'rubik', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-top: 5px;
+}
+
+.projectDetail a, .projectDetail a:hover, .projectDetail a:visited {
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	padding-bottom: 100px;
+}
+
+.projectCaption {
+	background-color: white;
+	color: black;
+	padding: 20px 20px 0px 20px;
+	font-style: 'rubik' sans-serif;
+}
+
+
+
+/*---------------- Left Hand---------------------------------*/
+
+.projectList ul {
+	padding: 0px;
+}
+
+
+
+projectList li  a{
+	padding-right: 20px;
+}
+
+.projectList ul li {
+	font-weight: 400;
+	font-size: 1em;
+	list-style: none;
+	display: inline-block;
+	color: yellow;
+	background-color: black;
+	padding: 15px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+.projectList ul li a {
+	text-decoration: none;
+}
+
+.projectList li a:hover {
+	text-decoration: underline;
+}
+
+.projectList li a:visited {
+	color: white;
+}
+
+#moreProjects { /* this is the background div */
+}
+
+.moreProjects {
+	padding-top: 40px;
+	margin-left: 20px;
+}
+
+.moreProjects h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+
+
+/*----------Right Hand----------*/
+
+.projectImages {
+	text-align: left;
+}
+
+.projectImages img {
+	text-align: left;
+	/*margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;*/
+}
+
+.projectImages h4 {
+	font-size: 2em;
+	font-weight: 900;
+	font-family: 'Playfair', serif;
+	line-height: 1.5em;
+	margin-bottom: 0px;
+}
+
+.projectImages p {
+	padding-top: 10px;
+	line-height: 1.5em;
+}
+
+.projectImages #projectCaption caption {
+	font-style: 'rubik' sans-serif;
+}
+
+
+#peciDetail, #unfiDetail, #codeGirlDetail, #metalToadDetail {
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+#fireflyDetail, #diagramsDetail, #holidayCardDetail {
+	background-color: #F05942;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+#peciDetail {
+	color: black;
+	background-color: #E6EF00;
+}
+
+#peciDetail a {
+	color: black;
+}
+
+#metalToadDetail {
+	background-color: #f15f22;
+}
+
+#unfiDetail {
+	background-color: #54aee0;
+}
+
+#fireflyDetail {
+	background-color: #183365;
+}
+
+#diagramsDetail {
+	background-color: #f15f22;
+}
+
+#codeGirlDetail {
+	background-color: #61a902;
+}
+
+#holidayCardDetail {
+	background-color: black;
+}
+
+
+
+
+/*-------------Project Images & Discriptions-------------*/
+
+#projectDescription {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid black;
+}
+
+#projectDescription img {
+	padding-bottom: 60px;
+}
+
+#projectDescription p {
+	margin-bottom: 0px;
+}
+
+/*------------Metal Toad-------------*/
+
+img.mtLogo {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#metalToadDiscovery.metalToadDetail  {
+	background-color: white;
+	color: black;
+}
+
+img.typefaces {
+	padding: 60px;
+}
+
+
+/*--------------OSHR-------------*/
+
+.oshrLogo {
+	display: grid;
+	grid-template-columns: 40px 1fr 1fr 40px;
+}
+
+.oshrLogo img {
+	grid-column: 2;
+}
+
+/* ------------------------ Favorites ------------------------ */
+
+.favoritesDetail {
+	background-color: white;
+	color: black;
+	padding-bottom: 120px;
+}
+
+.favorites {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	padding-left: 0px;
+}
+
+.favorites li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.favorites a, .favorites a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.favorites a:hover, .favorites a:active {
+	text-decoration: underline;
+}
+
+/* ------------------------ Resume ------------------------ */
+
+.left, .experience {
+	padding-left: 20px;
+}
+
+.education h2, .skills h2, .tools h2, .experience h2 {
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: 0px 0px;
+	padding-bottom: 5px;
+}
+
+.education p, .skills p, .tools p, .experience p {
+	font-family: 'Cormorant', serif;
+	font-size: 1.1em;
+	margin: 0px 0px;
+	padding: 0px 40px 20px 0px;
+	line-height: 25px;
+}
+
+.education p a, .skills p a, .tools p a, .experience p a {
+	color: black;
+}
+
+.education p a:visited, .skills p a:visited, .tools p a:visited, .experience p a:visited {
+	color: black;
+}
+
+.education, .experience {
+	padding-top: 20px;
+}
+
+.education, .expDetail, .skills {
+	padding-bottom: 20px;
+}
+
+.college, .title {
+	font-weight: 700;
+}
+
+/* ------------------------ break points ------------------------*/
+
+@media only screen and (min-width: 717px) {
+
+/*----------------Homepage-----------------------*/
+	.banner {
+		padding-left: 40px;
+	}
+
+	.intro h2 {
+	  font-size: 3.713em;
+		height: 30vh;
+		padding: 30px 0px 0px 20px;
+	}
+
+	#work ul {
+	 	display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 300px 300px 300px;
+	 	grid-gap: 0px;
+	}
+
+	.projectOne {
+			grid-column: 1;
+			grid-row: 1;
+	}
+
+	.projectTwo {
+			grid-column: 2;
+			grid-row: 1;
+	}
+
+	.projectThree {
+			grid-column: 3;
+			grid-row: 1;
+	}
+
+	.projectFour {
+			grid-column: 1;
+			grid-row: 2;
+	}
+
+	.projectFive {
+			grid-column: 2;
+			grid-row: 2;
+	}
+
+	.projectSix {
+			grid-column: 3;
+			grid-row: 2;
+	}
+
+/*--------------About Page ------------------*/
+	.about {
+		padding: 70px 40px 100px 40px;
+	}
+
+	.about p {
+	  font-size: 2.197em;
+		line-height: 50px;
+	}
+
+/*--------------Contact Page------------------*/
+	.introContact {
+  		padding: 40px 20px 20px 40px;
+	}
+
+	.introContact p {
+	  font-family: 'Cormorant', sans-serif;
+	  font-size: 2.197em;
+	  line-height: 50px;
+	  padding-bottom: 40px;
+	}
+
+	#contact {
+		padding-left: 40px;
+	}
+
+/*----------------- Project Pages --------------*/
+
+	.projectDetail {
+		color: white;
+		padding: 100px 40px 100px 0px;
+	}
+
+	.projectDetail h2, {
+		font-size: 3.713em;
+	}
+
+	#peciDetail h2 , #fireflyDetail h2, #unfiDetail h2, #diagramsDetail h2, #codeGirlDetail h2, #holidayCardDetail h2, #metalToadDetail h2 {
+		padding-left: 40px;
+	}
+
+	.projectDetail h3 {
+		font-size: 1.6em;
+		padding: 0px 40px;
+	}
+
+	.projectDetail p {
+		font-size: 1.3em;
+		font-weight: 300;
+		padding: 20px 20px 0px 40px;
+	}
+
+	#moreProjects {
+		margin-left: 20px;
+	}
+
+	#moreProjects h2 {
+		padding: 60px 0px 0px 0px;
+		border-bottom: 1px solid black;
+		margin-bottom: 10px;
+		font-family: 'rubik' sans-serif;
+		font-size: 1.69em;
+	}
+	/*------------MT LOGO---------------------*/
+
+	.mtLogo img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 65%;
+	}
+
+	/* Resume */
+
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		grid-gap: 1fr;
+		padding-left: 20px;
+	}
+
+	/* Favorites */
+
+	.favorites {
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (min-width: 1053px) {
+
+	.projectImages {
+		width: 100%;
+	}
+
+	.projectList ul li {
+		grid-column: 1;
+		grid-row: 1;
+		font-size: 1em;
+	}
+
+	.projectList ul li a {
+		font-weight: 300;
+	}
+
+	.projectList li {
+		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+	.banner {
+		padding: 20px 0px 0px 80px;
+	}
+	.intro {
+		padding: 40px 60px 300px 60px;
+	}
+	.intro h2 {
+		padding-top: 0px;
+		font-size: 6.275em;
+	}
+
+	.about {
+		padding: 0px 100px 0px 80px;
+	}
+
+	#contact {
+		padding-left: 80px;
+	}
+
+	/* Project pages */
+
+	.projectDetail {
+		padding-left: 40px;
+	}
+
+	#moreProjects {
+		padding-left: 40px;
+	}
+
+	/* Resume */
+	.left {
+		padding: 60px 200px 0px 40px;
+	}
+
+	.experience {
+		padding: 80px 200px 0px 0px;
+	}
+
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 5fr 7fr;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+
+	.banner, .banner h1, banner ul  {
+		padding-left: 40px;
+	}
+
+	.intro h2 {
+	  font-weight: 500;
+	  font-size: 6.275em;
+	  padding: 100px 40px 0px 40px;
+	}
+
+	.about p {
+		font-size: 2.856em;
+		line-height: 70px;
+	}
+
+	.projectDetail {
+		padding: 150px 40px 0px 40px;
+	}
+
+	.projectDetail h2 {
+		font-size: 4.827em;
+		padding: 0px 40px;
+	}
+
+	.projectDetail h3 {
+		font-size: 2.197em;
+		padding: 0px 40px;
+	}
+
+	.projectDetail p {
+		font-size: 2.197em;
+		font-weight: 300;
+		padding: 20px 40px 0px 40px;
+	}
+
+	#peciDetail, #fireflyDetail, #unfiDetail {
+		padding-bottom: 200px;
+	}
+}
