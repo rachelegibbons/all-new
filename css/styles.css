@@ -729,8 +729,8 @@ img.full-width {
 	#uxDetail h2,
 	#metalToadDetail h2,
 	#letteringDetail h2,
-	#oshrDetail h2
-	#favoritesDetail {
+	#oshrDetail h2,
+	#favoritesDetail h2 {
 		padding-left: 40px;
 	}
 
@@ -815,7 +815,7 @@ figure.rejectedLogo {
 	/* Favorites */
 
 	.favorites {
-		padding-left: 20px;
+		padding-left: 40px;
 	}
 
 
