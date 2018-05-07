@@ -491,10 +491,10 @@ figure.shadow {
 
 
 /*--------------Code Girl -------------*/
-.codeGirlDetail {
-	max-width: 75%;
-	vertical-align: middle;
-	margin: auto;
+.codeGirlImages {
+/*	max-width: 80%;
+	margin: auto;*/
+	text-align: center;
 }
 
 /*------------Metal Toad-------------*/
@@ -734,11 +734,14 @@ img.full-width {
 		padding: 50px 40px;
 	}
 
-	figcaption {
-		padding-left: 0px;
-	}
+
 
 	/*------------MT LOGO---------------------*/
+
+	.mtLogo {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
 
 	.mtLogo img{
 		display: block;
