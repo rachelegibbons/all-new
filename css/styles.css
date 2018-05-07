@@ -225,7 +225,7 @@ figure.figurePad figcaption {
 }
 
 .about p {
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.69em;
   line-height: 38px;
   padding-bottom: 40px;
@@ -276,7 +276,7 @@ figure.figurePad figcaption {
 
 
 .introContact p {
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.69em;
   line-height: 38px;
   padding-bottom: 40px;
@@ -293,11 +293,12 @@ figure.figurePad figcaption {
 
 .projectDetail h2 {
 	font-family: 'Cormorant Garamond', serif;
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 2.856em;
 	margin-bottom: 0px;
 	line-height: 1em;
 	padding-bottom: 20px;
+	padding-left: 40px;
 }
 
 .projectDetail h3 {
@@ -415,13 +416,7 @@ figure.figurePad figcaption {
 }
 
 
-#peciDetail, #oshrDetail, #sonyDetail, #unfiDetail, #codeGirlDetail, #metalToadDetail {
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-
-#fireflyDetail, #sonyDetail, #diagramsDetail, #holidayCardDetail {
-	background-color: #F05942;
+#peciDetail, #oshrDetail, #sonyDetail, #unfiDetail, #codeGirlDetail, #metalToadDetail, #fireflyDetail, #sonyDetail, #diagramsDetail, #holidayCardDetail {
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
@@ -673,7 +668,7 @@ img.full-width {
 	}
 
 	.introContact p {
-	  font-family: 'Cormorant Garamond', sans-serif;
+	  font-family: 'Cormorant Garamond', serif;
 	  font-size: 2.197em;
 	  line-height: 50px;
 	  padding-bottom: 40px;
