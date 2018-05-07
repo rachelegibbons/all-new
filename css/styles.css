@@ -490,6 +490,15 @@ figure.figurePad figcaption {
 
 /*----------Sony---------*/
 
+
+
+/*--------------Code Girl -------------*/
+.codeGirlDetail {
+	max-width: 75%;
+	vertical-align: middle;
+	margin: auto;
+}
+
 /*------------Metal Toad-------------*/
 
 #metalToadDiscovery.metalToadDetail  {
@@ -717,7 +726,7 @@ img.full-width {
 	}
 
 	figcaption {
-		padding: 40px;
+		padding-left: 0px;
 	}
 
 	/*------------MT LOGO---------------------*/
@@ -791,7 +800,7 @@ img.full-width {
 
 
 	figcaption {
-		padding: 80px;
+		padding-left: 40px;
 	}
 
 }	
