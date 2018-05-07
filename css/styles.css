@@ -190,7 +190,6 @@ figure.shadow {
 .projectEight {
 	background-color: #f15f22;
 }
-}
 
 .projectEight:hover {
 	opacity: 0.7;
@@ -303,7 +302,6 @@ figure.shadow {
 	margin-bottom: 0px;
 	line-height: 1em;
 	padding-bottom: 20px;
-	padding-left: 40px;
 }
 
 .projectDetail h3 {
@@ -623,7 +621,7 @@ img.full-width {
 	#work ul {
 	 	display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 300px 300px 300px;
+		grid-template-rows: 300px 300px 300px 300px;
 	 	grid-gap: 0px;
 	}
 
@@ -698,7 +696,18 @@ img.full-width {
 		font-size: 3.713em;
 	}
 
-	#peciDetail h2 , #fireflyDetail h2, #unfiDetail h2, #diagramsDetail h2, #codeGirlDetail h2, #holidayCardDetail h2, #metalToadDetail h2 {
+	#peciDetail h2 , 
+	#fireflyDetail h2, 
+	#unfiDetail h2, 
+	#diagramsDetail h2, 
+	#codeGirlDetail h2, 
+	#holidayCardDetail h2, 
+	#metalToadDetail h2,
+	#sonyDetail h2,
+	#uxDetail h2,
+	#metalToadDetail h2,
+	#letteringDetail h2,
+	#oshrDetail h2 {
 		padding-left: 40px;
 	}
 
@@ -760,6 +769,12 @@ img.full-width {
 
 .peciInline3 {
 	grid-column: 3;	
+}
+
+/*------------oshr---------------*/
+figure.rejectedLogo {
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 /*--------------- Resume -----------------*/
