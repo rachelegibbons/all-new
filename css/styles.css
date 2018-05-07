@@ -24,14 +24,18 @@ figure {
 	padding: 0;
 }
 
+figcaption {
+	padding: 30px;
+	color: gray;
+}
+
 figure.figurePad {
 	margin-top: 0px 0px;
 	padding: 50px 20px;
 }
 
-figcaption {
-	padding: 20px;
-	color: gray;
+figure.figurePad figcaption {
+	padding: 30px 0px;
 }
 
 .banner {
@@ -81,7 +85,7 @@ figcaption {
 }
 
 .intro {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
 	margin-bottom: -15px;
 	padding: 120px 20px 200px 20px;
 }
@@ -123,7 +127,7 @@ figcaption {
 }
 
 .projectTwo {
-  background-color: #183365;
+  background-color: black;
 }
 
 .projectTwo:hover {
@@ -132,7 +136,7 @@ figcaption {
 }
 
 .projectThree {
-  background-color: #54aee0;
+  background-color: #F15B4A;
 }
 
 .projectThree:hover {
@@ -159,7 +163,7 @@ figcaption {
 }
 
 .projectSix {
-  background-color: black;
+  background-color: #54aee0;
 }
 
 .projectSix:hover {
@@ -168,7 +172,7 @@ figcaption {
 }
 
 .projectSeven {
-	background-color: #f15f22;
+	background-color: black;
 }
 
 .projectSeven:hover {
@@ -179,18 +183,49 @@ figcaption {
 .projectEight {
 	background-color: #f15f22;
 }
+}
 
-.projectEight:hover {
+.projectEight:hover { /*--OSHR--*/
 	opacity: 0.7;
 	text-decoration: underline;
 }
+
+.projectNine { 
+	background-color: #193364;
+}
+
+.projectNine:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectTen{ 
+	background-color: #f15f22;
+}
+
+.projectTen:hover { 
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+.projectEleven{ 
+	background-color: #61a902;
+}
+
+.projectEleven:hover { 
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+
+
 
 .about {
   padding: 40px 20px 20px 20px;
 }
 
 .about p {
-  font-family: 'Cormorant', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-size: 1.69em;
   line-height: 38px;
   padding-bottom: 40px;
@@ -241,7 +276,7 @@ figcaption {
 
 
 .introContact p {
-  font-family: 'Cormorant', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-size: 1.69em;
   line-height: 38px;
   padding-bottom: 40px;
@@ -252,15 +287,13 @@ figcaption {
 /*---------------------- Project Pages ----------------------*/
 
 .projectDetail {
-	background-color: #34496f;
 	color: white;
 	padding: 100px 20px 0px 20px;
 }
 
 .projectDetail h2 {
-	font-family: 'PlayFair Display', serif;
-	font-weight: 900;
-	letter-spacing: 4px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 600;
 	font-size: 2.856em;
 	margin-bottom: 0px;
 	line-height: 1em;
@@ -367,7 +400,7 @@ figcaption {
 .projectImages h4 {
 	font-size: 2em;
 	font-weight: 900;
-	font-family: 'Playfair', serif;
+	font-family: 'Cormorant Garamond', serif;
 	line-height: 1.5em;
 	margin-bottom: 0px;
 }
@@ -382,15 +415,25 @@ figcaption {
 }
 
 
-#peciDetail, #unfiDetail, #codeGirlDetail, #metalToadDetail {
+#peciDetail, #oshrDetail, #sonyDetail, #unfiDetail, #codeGirlDetail, #metalToadDetail {
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
 
-#fireflyDetail, #diagramsDetail, #holidayCardDetail {
+#fireflyDetail, #sonyDetail, #diagramsDetail, #holidayCardDetail {
 	background-color: #F05942;
 	padding-top: 100px;
 	padding-bottom: 120px;
+}
+
+#oshrDetail {
+	color: white;
+	background-color: #F15B4A;
+}
+
+#sonyDetail {
+	color: white;
+	background-color: black;
 }
 
 #peciDetail {
@@ -445,6 +488,8 @@ figcaption {
 	margin-bottom: 0px;
 }
 
+/*----------Sony---------*/
+
 /*------------Metal Toad-------------*/
 
 #metalToadDiscovery.metalToadDetail  {
@@ -460,17 +505,24 @@ img.typefaces {
 /*--------------OSHR-------------*/
 
 .oshrLogo {
-	display: grid;
-	grid-template-columns: 40px 1fr 1fr 40px;
+	padding: 60px 20px;
 }
 
 .oshrLogo img {
-	grid-column: 2;
+	max-width: 100%;
+}
+
+img.poster {
+	border: 1px solid grey;
+}
+
+img.oshrPostcard {
+	padding-top: 20px;
 }
 
 /*-----------PECI-------------*/
 
-.peciImages img {
+img.full-width {
 	width: 100%;
 }
 
@@ -517,7 +569,7 @@ img.typefaces {
 }
 
 .education p, .skills p, .tools p, .experience p {
-	font-family: 'Cormorant', serif;
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.1em;
 	margin: 0px 0px;
 	padding: 0px 40px 20px 0px;
@@ -612,7 +664,7 @@ img.typefaces {
 	}
 
 	.introContact p {
-	  font-family: 'Cormorant', sans-serif;
+	  font-family: 'Cormorant Garamond', sans-serif;
 	  font-size: 2.197em;
 	  line-height: 50px;
 	  padding-bottom: 40px;
