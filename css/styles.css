@@ -490,10 +490,20 @@ figure.shadow {
 
 
 
+/*------------Firefly Images----------*/
+
+.fireflyImages {
+	text-align: center;
+}
+
+/*--------digital diagrams-----------*/
+
+.diagramImages {
+	text-align: center;
+}
+
 /*--------------Code Girl -------------*/
 .codeGirlImages {
-/*	max-width: 80%;
-	margin: auto;*/
 	text-align: center;
 }
 
@@ -533,9 +543,21 @@ img.full-width {
 	width: 100%;
 }
 
+/*------------UNFI-----------*/
+
+.unfiImages {
+	text-align: center;
+}
+
 /* ------------------------ Favorites ------------------------ */
 
 .favoritesDetail {
+	background-color: white;
+	color: black;
+	padding-bottom: 120px;
+}
+
+#favoritesDetail {
 	background-color: white;
 	color: black;
 	padding-bottom: 120px;
@@ -707,7 +729,8 @@ img.full-width {
 	#uxDetail h2,
 	#metalToadDetail h2,
 	#letteringDetail h2,
-	#oshrDetail h2 {
+	#oshrDetail h2
+	#favoritesDetail {
 		padding-left: 40px;
 	}
 
