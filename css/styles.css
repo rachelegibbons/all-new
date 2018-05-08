@@ -486,9 +486,11 @@ figure.shadow {
 	margin-bottom: 0px;
 }
 
-/*----------Sony---------*/
+/*----------unfi---------*/
 
-
+img.border {
+	border: 1px solid gray;
+}
 
 /*------------Firefly Images----------*/
 
