@@ -130,7 +130,7 @@ figure.shadow {
 }
 
 .projectOne {
-  background-color: black;
+  background-color: #E6EF00;
 }
 
 .projectOne:hover {
@@ -148,7 +148,7 @@ figure.shadow {
 }
 
 .projectThree {
-  background-color: black;
+  background-color: #eb5949;
 }
 
 .projectThree:hover {
@@ -157,7 +157,7 @@ figure.shadow {
 }
 
 .projectFour {
-  background-color: black;
+  background-color: #f15f22;
 }
 
 .projectFour:hover {
@@ -166,7 +166,7 @@ figure.shadow {
 }
 
 .projectFive {
-  background-color: black;
+  background-color: #61a902;
 }
 
 .projectFive:hover {
@@ -175,7 +175,7 @@ figure.shadow {
 }
 
 .projectSix {
-  background-color: black;
+  background-color: #54aee0;
 }
 
 .projectSix:hover {
@@ -193,7 +193,7 @@ figure.shadow {
 }
 
 .projectEight {
-	background-color: black;
+	background-color: #f15f22;
 }
 
 .projectEight:hover {
@@ -202,7 +202,7 @@ figure.shadow {
 }
 
 .projectNine { 
-	background-color: black;
+	background-color: #183365;
 }
 
 .projectNine:hover {
@@ -561,7 +561,7 @@ img.typefaces {
 /*--------------OSHR-------------*/
 
 .oshrLogo {
-	padding: 60px 20px;
+    padding: 60px 0px;
 }
 
 .oshrLogo img {
