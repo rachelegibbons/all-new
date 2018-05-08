@@ -44,9 +44,10 @@ body {
 
 }
 
-img.codeGirlImage {
-	padding-top: 100px;
+figure.codeSketch {
+	border: 10px solid #333333;
 }
+
 
 }	
 @media only screen and (min-width: 717px) {
