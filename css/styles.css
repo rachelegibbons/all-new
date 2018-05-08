@@ -228,9 +228,8 @@ figure.shadow {
 	text-decoration: underline;
 }
 
-
 .about {
-  padding: 40px 20px 20px 20px;
+  padding: 80px 20px 80px 20px;
 }
 
 .about p {
@@ -717,14 +716,14 @@ img.full-width {
 			grid-row: 2;
 	}
 
-figure.shadow {
-	padding-top: 40px;    
-}
+	figure.shadow {
+		padding-top: 40px;    
+	}
 
 
 /*--------------About Page ------------------*/
 	.about {
-		padding: 70px 40px 100px 40px;
+		padding: 80px 80px 80px 40px;
 	}
 
 	.about p {
@@ -839,31 +838,31 @@ figure.shadow {
 	}
 
 /*------------oshr---------------*/
-figure.rejectedLogo {
-	padding-top: 150px;
-	padding-bottom: 150px;
+	figure.rejectedLogo {
+		padding-top: 150px;
+		padding-bottom: 150px;
 }
 
 /*----------------UNFI--------------------*/
 
-figure.diagramIphone {
-	padding: 60px 0px;
-}
+	figure.diagramIphone {
+		padding: 60px 0px;
+	}
 
 /*--------------UX Page-------------*/
 
-img.clientImage {
-	max-width: 80%;
+	img.clientImage {
+		max-width: 80%;
 }
 
 /*--------------- Resume -----------------*/
 
-#resumeCssGrid {
-	display: grid;
-	grid-template-columns: 2fr 3fr;
-	grid-gap: 1fr;
-	padding-left: 20px;
-}
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		grid-gap: 1fr;
+		padding-left: 20px;
+	}
 
 	/* Favorites */
 
@@ -871,6 +870,12 @@ img.clientImage {
 		padding-left: 40px;
 	}
 
+	.introContact {
+	  	padding: 80px 40px 20px 40px;
+	}
+}
+
+/*---------------end 717 MQ-------------*/
 
 @media only screen and (min-width: 1053px) {
 
@@ -892,45 +897,48 @@ img.clientImage {
 		display: block;
 	}
 
-
 	figcaption {
 		padding-left: 40px;
 	}
 
-figure.shadow {
-	padding-top: 60px;    
-}
+	figure.shadow {
+		padding-top: 60px;    
+	}
 
-/*}*/	
+	.cardImages {
+		text-align: center;
+		padding: 60px 0px;
+	}
 
-.cardImages {
-	text-align: center;
-	padding: 60px 0px;
-}
-
-img.card {
-	padding-top: 60px;
-}
+	img.card {
+		padding-top: 60px;
+	}
 
 	.introContact {
-  		padding: 80px 40px 20px 40px;
+	  	padding: 80px 40px 20px 40px;
 	}
+
+}	
+
+/*-----------END 1053 MQ--------------*/
 
 @media only screen and (min-width: 1300px) {
 
 	.banner {
 		padding: 20px 0px 0px 80px;
 	}
+
 	.intro {
 		padding: 40px 60px 300px 60px;
 	}
+
 	.intro h2 {
 		padding-top: 0px;
 		font-size: 6.275em;
 	}
 
 	.about {
-		padding: 0px 100px 0px 80px;
+		padding: 80px 100px 80px 80px;
 	}
 
 	#contact {
@@ -970,17 +978,21 @@ img.card {
 		grid-template-columns: 5fr 7fr;
 	}
 
+	/*----MT LOGO -----*/
+
 	.mtLogo {
 		padding-left: 40px;
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
 
+	.introContact {
+	  	padding: 80px 80px 20px 80px;
+	}
+
 }
 
-.introContact {
-  		padding: 80px 80px 20px 80px;
-  	}
+/*-------------END MQ-------------*/
 
 @media only screen and (min-width: 1500px) {
 
