@@ -33,8 +33,8 @@ body {
 	text-decoration: none;
 }
 
-.favoritesGrid p {
-	margin-bottom: 5px;
+.favoritesGrid li p {
+	padding-top: 20px
 }
 
 .favoritesGrid small {
@@ -44,6 +44,7 @@ body {
 
 }
 
+}	
 @media only screen and (min-width: 717px) {
 
 	.favoritesGrid li {
