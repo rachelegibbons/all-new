@@ -814,6 +814,7 @@ figure.shadow {
 	}
 
 
+
 	/*------------MT LOGO---------------------*/
 
 	.mtLogo {
@@ -847,6 +848,12 @@ figure.rejectedLogo {
 
 figure.diagramIphone {
 	padding: 60px 0px;
+}
+
+/*--------------UX Page-------------*/
+
+img.clientImage {
+	max-width: 80%;
 }
 
 /*--------------- Resume -----------------*/
