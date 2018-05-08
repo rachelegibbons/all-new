@@ -513,7 +513,19 @@ img.border {
 	border: 1px solid lightgrey;
 }
 
+/*------------------ux--------------*/
 
+
+
+/*.clientLogos {
+	text-align: center;
+	padding: 100px 0px;
+}
+
+img.clientLogo1 {
+	text-align: center;
+	margin: auto;
+}
 
 /*------------Firefly Images----------*/
 
@@ -959,6 +971,9 @@ img.card {
 		padding-bottom: 100px;
 	}
 
+	.clientLogos {
+		max-width: 75%;
+	}
 }
 
 @media only screen and (min-width: 1500px) {
