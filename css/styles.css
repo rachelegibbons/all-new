@@ -905,6 +905,10 @@ img.card {
 	padding-top: 60px;
 }
 
+	.introContact {
+  		padding: 80px 40px 20px 40px;
+	}
+
 @media only screen and (min-width: 1300px) {
 
 	.banner {
@@ -965,10 +969,11 @@ img.card {
 		padding-bottom: 100px;
 	}
 
-	.clientLogos {
-		max-width: 75%;
-	}
 }
+
+.introContact {
+  		padding: 80px 80px 20px 80px;
+  	}
 
 @media only screen and (min-width: 1500px) {
 
