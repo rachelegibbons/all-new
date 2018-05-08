@@ -519,6 +519,7 @@ img.typefaces {
 }
 
 
+
 /*--------------OSHR-------------*/
 
 .oshrLogo {
@@ -777,25 +778,10 @@ img.full-width {
 		max-width: 75%;
 	}
 
-/*-------#peciInline----------------*/ 
-
-#peciInline {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-
-.peciInline1 {
-	grid-column: 1;
-}
-
-.peciInline2 {
-	grid-column: 2;
-	max-height: 1fr;
-}
-
-.peciInline3 {
-	grid-column: 3;	
-}
+	img.mtColorPalette {
+		max-width: 50%;
+		text-align: center;
+	}
 
 /*------------oshr---------------*/
 figure.rejectedLogo {
