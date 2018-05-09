@@ -220,7 +220,7 @@ figure.shadow {
 }
 
 .projectEleven{ 
-	background-color: black;
+	background-color: #E6EF00;
 }
 
 .projectEleven:hover { 
@@ -457,6 +457,11 @@ figure.shadow {
 
 #peciDetail a {
 	color: black;
+}
+
+#letteringDetail {
+	color: black;
+	background-color: #E6EF00;
 }
 
 #metalToadDetail {
