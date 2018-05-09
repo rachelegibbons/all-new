@@ -638,8 +638,13 @@ img.full-width {
 	text-decoration: none;
 }
 
-.favorites a:hover, .favorites a:active {
+.favorites a:active {
 	text-decoration: underline;
+}
+
+.favorites a:hover {
+	text-decoration: underline;
+	color: black;
 }
 
 /* ------------------------ Resume ------------------------ */
