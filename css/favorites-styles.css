@@ -54,7 +54,7 @@ figure.codeSketch {
 
 	.favoritesGrid li {
 		width: calc(100% / 3);
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 
 }
@@ -62,7 +62,7 @@ figure.codeSketch {
 @media only screen and (min-width: 1053px) {
 
 	.favoritesGrid {
-		padding-left: 20px;
+		padding-left: 40px;
 	}
 	.favoritesGrid li {
 		width: calc(100% / 4);
