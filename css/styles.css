@@ -433,7 +433,8 @@ figure.shadow {
 #diagramsDetail, 
 #holidayCardDetail,
 #uxDetail,
-#letteringDetail
+#letteringDetail,
+#lundDetail
  {
 	padding-top: 100px;
 	padding-bottom: 120px;
@@ -489,6 +490,11 @@ figure.shadow {
 
 #holidayCardDetail {
 	background-color: black;
+}
+
+#lundDetail {
+	background-color: #006EA0;
+	color: white;
 }
 
 
@@ -592,6 +598,7 @@ img.full-width {
 	text-align: center;
 }
 
+
 /*---------sony--------*/
 img.sonyHomepage {
 	display: block;
@@ -619,6 +626,14 @@ img.sonyiPhone {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*------------ Lund Report ----------*/
+img.lundWireframes {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 /* ------------------------ Favorites ------------------------ */
 
@@ -825,6 +840,7 @@ img.sonyiPhone {
 	#metalToadDetail h2,
 	#letteringDetail h2,
 	#oshrDetail h2,
+	#lundDetail h2,
 	#favoritesDetail h2 {
 		padding-left: 40px;
 	}
@@ -916,6 +932,16 @@ img.sonyiPhone {
 
 	img.clientImage {
 		max-width: 80%;
+}
+
+/*--------------- SONY ------------*/
+img.sonyHomepage {
+	width: 100%;
+}
+
+img.sonyiPhone {
+	width: 50%;
+	}
 }
 
 /*--------------- Resume -----------------*/
