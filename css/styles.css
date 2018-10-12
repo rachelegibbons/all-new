@@ -107,14 +107,18 @@ figure.shadow {
   font-size: 2.197em;
 }
 
+#work {
+	background-color: black;
+}
+
 .projects ul {
   padding: 0px;
 }
 
 .projects li {
   list-style: none;
-  display: block;
-  padding: 20px 20px 200px 20px;
+  display: black;
+  padding: 20px 20px 50px 20px;
   color: white;
   font-size: 1.3em;
 }
@@ -130,11 +134,10 @@ figure.shadow {
 }
 
 .projectOne {
-  background-color: #E6EF00;
+  background-color: black;
 }
 
-.projectOne:hover {
-	opacity: 0.9;
+.projectOne a:hover {
 	text-decoration: underline;
 }
 
@@ -142,44 +145,39 @@ figure.shadow {
   background-color: black;
 }
 
-.projectTwo:hover {
-	opacity: 0.9;
+.projectTwo a:hover {
 	text-decoration: underline;
 }
 
 .projectThree {
-  background-color: #eb5949;
+  background-color: black;
 }
 
-.projectThree:hover {
-	opacity: 0.9;
+.projectThree a:hover {
 	text-decoration: underline;
 }
 
 .projectFour {
-  background-color: #f15f22;
+  background-color: black;
 }
 
-.projectFour:hover {
-	opacity: 0.9;
+.projectFour a:hover {
 	text-decoration: underline;
 }
 
 .projectFive {
-  background-color: #61a902;
+  background-color: black;
 }
 
-.projectFive:hover {
-	opacity: 0.9;
+.projectFive a:hover {
 	text-decoration: underline;
 }
 
 .projectSix {
-  background-color: #54aee0;
+  background-color: black;
 }
 
-.projectSix:hover {
-	opacity: 0.9;
+.projectSix a:hover {
 	text-decoration: underline;
 }
 
@@ -187,26 +185,23 @@ figure.shadow {
 	background-color: black;
 }
 
-.projectSeven:hover {
-	opacity: 0.9;
+.projectSeven a:hover {
 	text-decoration: underline;
 }
 
 .projectEight {
-	background-color: #f15f22;
+	background-color: black;
 }
 
-.projectEight:hover {
-	opacity: 0.9;
+.projectEight a:hover {
 	text-decoration: underline;
 }
 
 .projectNine { 
-	background-color: #183365;
+	background-color: black;
 }
 
-.projectNine:hover {
-	opacity: 0.9;
+.projectNine a:hover {
 	text-decoration: underline;
 }
 
@@ -214,18 +209,22 @@ figure.shadow {
 	background-color: black;
 }
 
-.projectTen:hover { 
-	opacity: 0.9;
+.projectTen a:hover { 
 	text-decoration: underline;
 }
 
-.projectEleven{ 
-	background-color: #E6EF00;
+.projectEleven { 
+	background-color: black;
 }
 
-.projectEleven:hover { 
-	opacity: 0.9;
+.projectEleven a:hover { 
 	text-decoration: underline;
+}
+
+.projects ul li p {
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 1.5em;
 }
 
 .about {
@@ -676,11 +675,11 @@ img.full-width {
 	color: black;
 }
 
-.education, .experience {
+.skills, .experience {
 	padding-top: 20px;
 }
 
-.education, .expDetail, .skills {
+.tools, .education, .expDetail, .skills {
 	padding-bottom: 20px;
 }
 
@@ -888,6 +887,10 @@ img.full-width {
 		padding-left: 20px;
 	}
 
+	.tools {
+		padding-bottom: 20px;
+	}
+
 	/* Favorites */
 
 	.favorites {
@@ -942,6 +945,12 @@ img.full-width {
 	  	padding: 80px 40px 20px 40px;
 	}
 
+/*-------- RESUME ------------*/
+
+.tools {
+	padding-bottom: 20px;
+}
+
 }	
 
 /*-----------END 1053 MQ--------------*/
@@ -990,11 +999,15 @@ img.full-width {
 
 	/* Resume */
 	.left {
-		padding: 60px 200px 0px 40px;
+		padding: 60px 200px 0px 60px;
 	}
 
 	.experience {
 		padding: 80px 200px 0px 0px;
+	}
+
+	.tools {
+		padding-bottom: 20px;
 	}
 
 	#resumeCssGrid {
@@ -1061,6 +1074,10 @@ img.full-width {
 
 	#peciDetail, #fireflyDetail, #unfiDetail {
 		padding-bottom: 200px;
+	}
+
+	.tools {
+		padding-bottom: 20px;
 	}
 
 }
