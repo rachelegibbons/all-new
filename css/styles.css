@@ -592,6 +592,34 @@ img.full-width {
 	text-align: center;
 }
 
+/*---------sony--------*/
+img.sonyHomepage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.sonyExplore {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.sonySecondHomepage {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.sonyiPhone {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* ------------------------ Favorites ------------------------ */
 
 .favoritesDetail {
@@ -835,6 +863,18 @@ img.full-width {
 		padding-bottom: 60px;
 	}
 
+	/*----------- SONY --------------*/
+	img.sonyiPhone {
+		width: 100%;
+	}
+
+	img.sonyExplore {
+	width: 78%;
+}
+
+
+}
+
 
 
 	/*------------MT LOGO---------------------*/
@@ -900,6 +940,15 @@ img.full-width {
 	.introContact {
 	  	padding: 80px 40px 20px 40px;
 	}
+
+/*--------------- SONY ------------*/
+img.sonyHomepage {
+	width: 100%;
+}
+
+img.sonyiPhone {
+	width: 50%;
+	}
 }
 
 /*---------------end 717 MQ-------------*/
@@ -944,6 +993,13 @@ img.full-width {
 	.introContact {
 	  	padding: 80px 40px 20px 40px;
 	}
+
+
+/*-------- SONY -------*/
+img.sonyiPhone {
+	width: 50%;
+	}
+
 
 /*-------- RESUME ------------*/
 
@@ -1026,6 +1082,24 @@ img.full-width {
 	.introContact {
 	  	padding: 80px 80px 20px 80px;
 	}
+
+
+/*------------SONY---------*/
+img.sonyiPhone {
+	width: 30%;
+	}
+
+img.sonyHomepage {
+	width: 50%;
+}
+
+img.sonySecondHomepage {
+	width: 50%;
+}
+
+img.sonyExplore {
+	width: 70%;
+}
 
 }
 
