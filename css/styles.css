@@ -634,6 +634,22 @@ img.lundWireframes {
 	margin-right: auto;
 }
 
+img.lundWireframeTwo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+img.lundMobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
 
 /* ------------------------ Favorites ------------------------ */
 
@@ -942,6 +958,15 @@ img.sonyHomepage {
 img.sonyiPhone {
 	width: 50%;
 	}
+}
+
+/*----------LUND---------* NOT WORKING / 
+/*img.lundWireframeTwo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid grey;
+	width: 30%;
 }
 
 /*--------------- Resume -----------------*/
